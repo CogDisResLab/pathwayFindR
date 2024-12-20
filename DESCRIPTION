@@ -1,0 +1,38 @@
+Package: pathwayFindR
+Title: Done enrichR enrichment analysis from R
+Version: 0.0.0.9000
+Authors@R: c(
+    person(
+    given = c("Ali", "Sajid"),
+    family = "Imami",
+    email = "Ali.Sajid.Imami@gmail.com",
+    role = c("aut", "cre"),
+    comment = c(ORCID = "0000-0003-3684-3539")),
+    person(
+    given = "John",
+    family = "Vergis",
+    email = "johnm.vergis@gmail.com",
+    role = c("aut"),
+    comment = c(ORCID = "0009-0006-0864-3264")),
+    person(
+    given = c("William", "George"),
+    family = "Ryan V",
+    email = "billyryan543@gmail.com",
+    role = c("aut"),
+    comment = c(ORCID = "0000-0003-4868-4002"))
+    )
+Description: This package implements access to the enrichR web tool developed
+    by the Ma'yan Laboratory. This package allows you to input one or more genesets
+    (along with background genesets if applicable) and access the results from
+    a specified set of libraries.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Suggests:
+    spelling,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Language: en-US
+Imports:
+    lifecycle

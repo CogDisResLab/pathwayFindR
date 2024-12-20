@@ -1,0 +1,90 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "SoftwareSourceCode",
+  "identifier": "pathwayFindR",
+  "description": "This package implements access to the enrichR web tool developed by the Ma'yan Laboratory. This package allows you to input one or more genesets (along with background genesets if applicable) and access the results from a specified set of libraries.",
+  "name": "pathwayFindR: Done enrichR enrichment analysis from R",
+  "license": "https://spdx.org/licenses/MIT",
+  "version": "0.0.0.9000",
+  "programmingLanguage": {
+    "@type": "ComputerLanguage",
+    "name": "R",
+    "url": "https://r-project.org"
+  },
+  "runtimePlatform": "R version 4.4.2 (2024-10-31)",
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": ["Ali", "Sajid"],
+      "familyName": "Imami",
+      "email": "Ali.Sajid.Imami@gmail.com",
+      "@id": "https://orcid.org/0000-0003-3684-3539"
+    },
+    {
+      "@type": "Person",
+      "givenName": "John",
+      "familyName": "Vergis",
+      "email": "johnm.vergis@gmail.com",
+      "@id": "https://orcid.org/0009-0006-0864-3264"
+    },
+    {
+      "@type": "Person",
+      "givenName": ["William", "George"],
+      "familyName": "Ryan V",
+      "email": "billyryan543@gmail.com",
+      "@id": "https://orcid.org/0000-0003-4868-4002"
+    }
+  ],
+  "maintainer": [
+    {
+      "@type": "Person",
+      "givenName": ["Ali", "Sajid"],
+      "familyName": "Imami",
+      "email": "Ali.Sajid.Imami@gmail.com",
+      "@id": "https://orcid.org/0000-0003-3684-3539"
+    }
+  ],
+  "softwareSuggestions": [
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "spelling",
+      "name": "spelling",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=spelling"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "testthat",
+      "name": "testthat",
+      "version": ">= 3.0.0",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=testthat"
+    }
+  ],
+  "softwareRequirements": {
+    "1": {
+      "@type": "SoftwareApplication",
+      "identifier": "lifecycle",
+      "name": "lifecycle",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=lifecycle"
+    },
+    "SystemRequirements": null
+  },
+  "fileSize": "168352.177KB"
+}
