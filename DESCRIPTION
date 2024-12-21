@@ -1,4 +1,4 @@
-Package: pathwayFindR
+Package: pathwayfindR
 Title: Done enrichR enrichment analysis from R
 Version: 0.0.0.9000
 Authors@R: c(
@@ -30,9 +30,16 @@ Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
 Suggests:
+    codemetar,
+    devtools,
+    lintr,
     spelling,
-    testthat (>= 3.0.0)
+    styler,
+    testthat (>= 3.0.0),
+    webmockr
+    vcr
 Config/testthat/edition: 3
 Language: en-US
 Imports:
-    lifecycle
+    httr2,
+    lifecycle,

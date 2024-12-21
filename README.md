@@ -2,23 +2,33 @@
 output: github_document
 ---
 
-<!-- README.md is generated from README.Rmd. Please edit that file -->
 
 
-
-# pathwayFindR
+# pathwayfindR
 
 <!-- badges: start -->
+[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
+[![Continuous Integration / R Workflows](https://github.com/CogDisResLab/pathwayFindR/actions/workflows/rworkflows.yml/badge.svg)](https://github.com/CogDisResLab/pathwayFindR/actions/workflows/rworkflows.yml)
+[![latest-version](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fcogdisreslab.r-universe.dev%2Fapi%2Fpackages%2FpathwayFindR&query=%24.Version&style=flat&label=latest-release&color=orange)](https://github.com/CogDisResLab/pathwayFindR/releases/latest)
+[![license](https://img.shields.io/github/license/CogDisResLab/pathwayFindR)](https://github.com/CogDisResLab/pathwayFindR/blob/main/LICENSE)
+[![DOI](https://zenodo.org/badge/338354715.svg)](https://zenodo.org/badge/latestdoi/338354715)
+[![Codecov test coverage](https://codecov.io/gh/CogDisResLab/pathwayFindR/branch/devel/graph/badge.svg)](https://app.codecov.io/gh/CogDisResLab/pathwayFindR?branch=devel)
 <!-- badges: end -->
 
 The goal of pathwayFindR is to ...
 
 ## Installation
 
-You can install the development version of pathwayFindR like so:
+You can install the released version of pathwayFindR from [r-universe](https://cogdisreslab.r-universe.dev/pathwayFindR) with:
+
 
 ``` r
-# FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
+install.packages("pathwayfindR",
+    repos = c(
+        "https://cogdisreslab.r-universe.dev",
+        "https://cran.r-project.org"
+    )
+)
 ```
 
 ## Example
